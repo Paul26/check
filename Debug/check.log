@@ -1,0 +1,3 @@
+﻿  check.cpp
+c:\dev\cs1410\check\check\check.cpp(46): warning C4101: 'amount': unreferenced local variable
+  check.vcxproj -> C:\Dev\CS1410\check\Debug\check.exe
