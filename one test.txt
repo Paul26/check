@@ -1,1 +1,1 @@
-deposit dec - 45
+deposit:dec:-:45.00

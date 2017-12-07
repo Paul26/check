@@ -10,7 +10,7 @@ int main()
 	string inputFile;
 	
 	cout << "Please enter a file name to be parsed: " << endl;
-	cin >> inputFile;
+	getline(cin, inputFile);  // Allows for the file name to contain spaces
 
 	ifstream in(inputFile);
 
@@ -78,6 +78,6 @@ int main()
 	cout << right << setw(52) << "Balance: " << "$" << setw(10) << balance << endl;
 
 
-	system("pause");
+	//system("pause");
 	return 0;
 }
