@@ -17,7 +17,7 @@ int main()
 	if (!in.good())
 	{
 		cerr << "Unable to open file \"inputFile\"" << endl;
-		//exit(1);
+		exit(1);
 	}
 
 	//string line;
